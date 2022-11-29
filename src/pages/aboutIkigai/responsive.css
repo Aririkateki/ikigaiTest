@@ -1,0 +1,61 @@
+@media screen and (max-width: 993px) {
+
+
+    .mainAnswerBox {
+        width: 369px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .aboutBox {
+        flex-direction: column !important;
+
+        align-items: center;
+    }
+
+    .contentAbout {
+        width: 80% !important;
+    }
+
+    .aboutIkigaiImg {
+        height: unset;
+
+    }
+
+    .ikigai {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+.titleIkigaiAbout{
+    font-size: 25px;
+    margin-top: 30px;
+}
+    .describebookBox {
+        flex-flow: column-reverse;
+        align-items: center;
+        margin:30px 0px 50px 0px;
+    }
+    .textBookBox{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 365px) {
+    .aboutIkigaiImg {
+       margin-top: 30px;
+
+    }
+
+    .book{
+      height: 230px!important;
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: IRANYekanLight;
+    src: url('IranYekan/IRANYekanMedium.ttf');
+    url('IranYekan/IRANYekanThin.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: IRANYekanBold;
+    src: url('IranYekan/IRANYekanBold.ttf');
+    url('IranYekan/IRANYekanBold.ttf') format('truetype');
+    font-weight: bold;
+}

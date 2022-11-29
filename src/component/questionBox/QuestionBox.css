@@ -1,0 +1,12 @@
+.titleQuetion{
+    color: #050631;
+
+}
+/*responsive*/
+@media screen and (max-width: 993px){
+
+    .titleQuetion{
+        font-size: 15pt;
+        margin-top: 20px;
+    }
+}

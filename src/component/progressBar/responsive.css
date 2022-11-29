@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 993px) {
+
+    .progressbar {
+        margin-top: 40px !important;
+        margin-bottom: 0px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .progressbar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .progressText {
+        font-size: 13px;
+    }
+}

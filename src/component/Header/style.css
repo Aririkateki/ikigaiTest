@@ -1,0 +1,109 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ADE0E0;
+    width: 100vw;
+    height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.navUl {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    list-style-type: none;
+    width: 80vw;
+    font-size: 15px !important;
+}
+
+.navLi {
+color: black;
+    margin: 0px 0px;
+
+}
+
+.registerBox {
+    list-style-type: none;
+    width: 20vw;
+    display: none;
+    justify-content: center;
+}
+
+.resisterButton {
+
+    background:  #fff0f6 !important;
+    padding: 5px 10px !important;
+    text-align: center;
+    height: 40px !important;
+    width: 125px !important;
+    color: black;
+    border-radius: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+.resisterButton:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.ikigaiLogo {
+    width: 172px;
+    height: 72px;
+}
+
+.headerLink {
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 0;
+    position: relative;
+    -moz-transition: ease-out 0.3s 0.1s;
+    -o-transition: ease-out 0.3s 0.1s;
+    -webkit-transition: ease-out 0.3s;
+    -webkit-transition-delay: 0.1s;
+    transition: ease-out 0.3s 0.1s;
+}
+
+.headerLink::after {
+    height: 2px;
+    width: 100%;
+    background: black;
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.headerLink:hover::after {
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+/*    ++++++++++++++++++            hambergue Menu                 ++++++++++++++++++++++++++++*/
+.MobileNavUl {
+    display: none;
+}
+
+.menu {
+    display: none;
+    color: white !important;
+    width: 3rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+

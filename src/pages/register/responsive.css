@@ -1,0 +1,28 @@
+@media screen  and (max-width: 1200px) {
+
+
+    .regis {
+        width: 70%;
+    }
+
+}
+
+@media screen  and (max-width: 992px) {
+    .formRegister {
+        width: 90% !important;
+        position: unset !important;
+        padding: unset;
+
+    }
+
+    .regis {
+        background: none;
+        box-shadow: none;
+        width: 80vw;
+    }
+
+    .imgregister {
+        display: none;
+    }
+
+}

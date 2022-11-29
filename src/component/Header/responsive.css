@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    .hambergure {
+        display: flex;
+    }
+
+
+    .navbar {
+
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 683px) {
+
+
+    .registerBox {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ikigaiLogo {
+        display: none;
+    }
+
+    .MobileNavUl {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        height: 80vh;
+        background: #ADE0E0;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+    }
+
+    .menu {
+        display: block;
+        padding: 0px 10px;
+    }
+
+    .navLi {
+        margin: 22px 0px;
+    }
+
+    .navUl {
+        display: none;
+
+    }
+}

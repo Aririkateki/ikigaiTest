@@ -1,0 +1,264 @@
+@media screen and (max-width: 1500px) {
+    .AnswerBoxx {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .mainAnswerBox {
+        width: 420px;
+        height: 169px;
+        margin-top: 31px;
+        margin-left: 0px !important;
+    }
+
+    .titleQuetion {
+        font-size: 15pt;
+
+    }
+
+    .whiteboxx {
+
+        width: 95%;
+        height: 95%;
+    }
+
+    .container {
+        height: 100vh;
+    }
+
+    .questionButton {
+        margin: 34px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+
+    .mainAnswerBox {
+        width: 369px !important;
+
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+    .whiteboxx {
+        box-shadow: none;
+        background: #FFFFFF00;
+        width: 100%;
+        height: 100%;
+    }
+
+    .AnswerBoxx {
+
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .mainAnswerBox {
+        width: 291px !important;
+
+    }
+
+    .container {
+        background: #ffffff;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    #venn {
+        transform: scale(0.7);
+    }
+
+    .resultDiv {
+        padding: 50px !important;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    .AnswerBoxx {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Title {
+        font-size: 15px !important;
+    }
+    .paragraphResult{
+        font-size: 12px !important;
+    }
+    .mainAnswerBox {
+        width: 518px !important;
+        height: 56px;
+        border-radius: 50px;
+        display: flex;
+        align-items: flex-start;
+        background: #ededed;
+        border: 1px solid silver;
+    }
+
+    .answertitle {
+
+        font-size: 13px;
+    }
+
+    .like {
+        width: 35px;
+        margin-left: 15px;
+    }
+
+
+
+    .likebox {
+        bottom: auto !important;
+        width: 20%;
+
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .mainAnswerBox {
+        width: 430px !important;
+    }
+
+    #venn {
+        transform: scale(0.5);
+    }
+
+    .resultDiv {
+        padding: 30px !important;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .mainAnswerBox {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+    .Title {
+        font-size: 12px !important;
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .paragraphResult{
+        font-size: 10px !important;
+    }
+    .imageResultIcon{
+        width: 40px;
+        height: 40px;
+    }
+    .titleBox{
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .questionButton {
+       font-size: 12px;
+        padding:10px 30px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .AnswerBoxx {
+        width: 80%;
+    }
+
+    .mainAnswerBox {
+        width: 90% !important;
+        height: 199px;
+    }
+
+    .questionButton {
+        margin: 19px !important;
+
+
+    }
+
+    .likebox {
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+        position: absolute;
+        bottom: -20px !important;
+    }
+
+    .buttonQBox {
+        margin-top: 30px;
+    }
+
+    /*    pop up*/
+    .box {
+        width: 60%;
+    }
+
+    .registerInput {
+        padding-left: unset !important;
+    }
+
+}
+
+@media screen and (max-width: 377px) {
+    .mainAnswerBox {
+        width: 80% !important;
+
+    }
+
+    .resultTitle {
+        font-size: 20px;
+    }
+
+    .like {
+        width: 71px;
+        height: 43px;
+    }
+
+    .buttonQBox {
+
+        width: 100%;
+    }
+    .downloadButton {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #venn {
+        padding: 0px !important;
+        margin: 0px;
+
+    }
+
+    .resultTitle {
+        font-size: 15px;
+    }
+
+    .downloadButton {
+        width: 100px !important;
+    }
+}
+
+@media screen and (max-width: 308px) {
+    .buttonQBox {
+        flex-direction: column;
+    }
+
+    .questionButton {
+        margin: 10px !important;
+    }
+
+    .resultDiv {
+        padding: 10px !important;
+    }
+
+    #venn {
+
+        transform: scale(0.3);
+    }
+}
+

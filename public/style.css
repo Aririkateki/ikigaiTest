@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: IRANYekanLight;
+
+
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}

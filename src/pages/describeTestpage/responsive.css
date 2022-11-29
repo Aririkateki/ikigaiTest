@@ -1,0 +1,80 @@
+@media screen and (max-width: 1300px) {
+    .bloomTree {
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bloomTree {
+        height: 40%;
+    }
+
+    .ikigai {
+        margin-top: unset;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloomTree {
+        display: none;
+
+    }
+
+    .aboutikigaiContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .describeBox {
+        width: 90%;
+        margin-top: 0 !important;
+        margin-right: 0px !important;
+    }
+
+    .describePage {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .bloomTree {
+        width: 600px;
+
+    }
+
+    .describeBox {
+
+        margin-top: 45%;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .bloomTree {
+        width: 500px;
+
+    }
+
+    .btnQuiz {
+        width: 8rem;
+        padding: 10px ;
+        margin-top: 10px ;
+    }
+}
+@media screen and (max-width: 390px) {
+.ikigai{
+    font-size: 19px;
+}
+    .paraghraphDescribe{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .ikigai{
+        font-size: 17px;
+    }
+    .paraghraphDescribe{
+        font-size: 13px;
+    }
+}
